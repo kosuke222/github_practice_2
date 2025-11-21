@@ -30,7 +30,7 @@ def calcuate(choice, num1, num2):
 	if choice == '1':
 		result = add_numbers(num1, num2)
 		print(f"{num1} + {num2} = {result}")
-	elif choice == 2:
+	elif choice == '2':
 		result = multiply_numbers(num1, num2)
 		print(f"{num1} * {num2} = {result}")
 	elif choice == '3':
