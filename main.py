@@ -55,7 +55,7 @@ def main():
 		check_choice(choice)
 		num1 = float(input("最初の数字を入力してください: "))
 		num2 = float(input("次の数字を入力してください: "))
-		calcuate(choice, num2, num1)
+		calcuate(choice, num1, num2)
 	except ValueError as e:
 		print(f"エラー: {type(e).__name__}\nエラーメッセージ: {e}")
 	except ZeroDivisionError as e:
