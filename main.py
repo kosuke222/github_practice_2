@@ -8,7 +8,7 @@ def multiply_numbers(num1, num2):
 
 def subtract_numbers(num1, num2):
 	# TODO: 引き算の実装
-	return None
+	return num1 - num2
 
 def divide_numbers(num1, num2):
 	# TODO: 割り算の実装
@@ -17,7 +17,7 @@ def divide_numbers(num1, num2):
 	return None
 
 def average_numbers(num1, num2):
-	# TODO: 平均の実装 
+	# TODO: 平均の実装
 	return None
 
 def check_choice(choice):
